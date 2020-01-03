@@ -25,7 +25,7 @@ int module_start(SceSize argc, const void *args)
 	0x8AF17416, //SceAppMgr
 	0xAFCEAB96,
 	sceAppMgrAcquireBgmPort_patched);
-  g_hooks[0] = taiHookFunctionImport(&ref_hook0,
+  g_hooks[0] = taiHookFunctionImport(&ref_hook1,
 	TAI_MAIN_MODULE,
 	0x8AF17416, //SceAppMgr
 	0xF3717E37,
